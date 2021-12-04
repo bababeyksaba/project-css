@@ -130,7 +130,14 @@
     padding: 0px;
     
 }
-
+@media screen and (max-width:1640px) {
+   .footer{
+       display: flex;
+       align-items: flex-end;
+      margin: 0px;
+   }
+    
+}
 .sec-1{
     margin: 20px;
     border: 0px;
@@ -196,11 +203,10 @@
     padding: 15px;
 
 }
-.span {
+.span{
     display: none;
 }
 
-.span::before {
-    content: 'hi';
-  display: visible;
+.icon-sp:hover .span{
+    display: visible;
 }
